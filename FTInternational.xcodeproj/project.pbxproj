@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -184,17 +184,19 @@
 				TargetAttributes = {
 					57158AB82016DA50004E524B = {
 						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = HLBKRB67RG;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					57158ACD2016DCCF004E524B = {
 						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = HLBKRB67RG;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 57158AB32016DA50004E524B /* Build configuration list for PBXProject "FTInternational" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

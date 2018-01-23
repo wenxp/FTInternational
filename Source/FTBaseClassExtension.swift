@@ -10,7 +10,7 @@ import UIKit
 
 extension String {
     //获取国际化语言
-    var localizable: String{
+    public var localizable: String{
         get {
             return FTLanguageInternational.localString(self)
         }
