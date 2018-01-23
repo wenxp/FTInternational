@@ -16,6 +16,7 @@
 		57158AE32016E230004E524B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57158AE52016E230004E524B /* Localizable.strings */; };
 		57158AE92016E2D3004E524B /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57158AE82016E2D3004E524B /* LanguageViewController.swift */; };
 		57158AEB2016EBC1004E524B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 57158AEA2016EBC1004E524B /* README.md */; };
+		57158B0B201744A6004E524B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 57158B0A201744A6004E524B /* LICENSE */; };
 		C37C904331EC829C2CA964CE /* Pods_InternationalDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49991101DBDA9EAC68B2D215 /* Pods_InternationalDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		57158AE72016E271004E524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		57158AE82016E2D3004E524B /* LanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		57158AEA2016EBC1004E524B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		57158B0A201744A6004E524B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E2B852514A1EF7739B8D922A /* Pods-InternationalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternationalDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-InternationalDemo/Pods-InternationalDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				57158AEA2016EBC1004E524B /* README.md */,
+				57158B0A201744A6004E524B /* LICENSE */,
 				57158ABB2016DA50004E524B /* Source */,
 				57158ACF2016DCCF004E524B /* InternationalDemo */,
 				57158ABA2016DA50004E524B /* Products */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57158B0B201744A6004E524B /* LICENSE in Resources */,
 				57158AEB2016EBC1004E524B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
