@@ -45,13 +45,12 @@ class LanguageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.title = "国际化"
-
         let path  = Bundle.main.path(forResource: "zh-Hans", ofType: "lproj")
 //        let path  = Bundle.main.path(forResource: "en", ofType: "lproj")
         FTInternationalConf.languageBundle = Bundle.init(path: path!)
         sign = 1
 
+        navigationItem.title = "International_key".localizable
         // Do any additional setup after loading the view.
         view.addSubview(label)
         view.addSubview(button)
