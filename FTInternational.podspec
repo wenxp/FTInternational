@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = 'App International'
 
   s.description  = <<-DESC
-  App International 
+  App International 支持swift 4.0
                    DESC
 
   s.homepage     = 'https://github.com/wenxp/FTInternational'

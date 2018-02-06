@@ -55,7 +55,7 @@ extension UILabel {
 //        }
 //    }
 
-    public override class func initializeOnceMethod() {
+    public class func initializeOnceMethod() {
         if self == UILabel.self {
 
             let originalSelector = #selector(setter: UILabel.text)
