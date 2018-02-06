@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
 
   s.name         = 'FTInternational'
-  s.version      = '0.0.3'
-  s.summary      = 'App International Using Swift3.2'
+  s.version      = '0.0.4'
+  s.summary      = 'App International'
 
   s.description  = <<-DESC
-  App International Using Swift3.2
+  App International 
                    DESC
 
   s.homepage     = 'https://github.com/wenxp/FTInternational'
