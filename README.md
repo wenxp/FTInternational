@@ -1,5 +1,5 @@
 #  FTInternational
-基于swift3.2实现的app 国际化功能。
+ 实现的app 国际化功能。
 ## 使用方法：
     仅需要加入如下代码；
         let path  = Bundle.main.path(forResource: "zh-Hans", ofType: "lproj")

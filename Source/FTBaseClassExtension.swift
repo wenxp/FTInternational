@@ -35,12 +35,31 @@ extension UILabel {
     }
 
 
-    open override class func initialize() {
+//    open override class func initialize() {
+//
+//        if self == UILabel.self {
+//
+//            let originalSelector = #selector(setter: UILabel.text)
+//            let swizzledSelector = #selector(UILabel.ft_setText(_:))
+//
+//            let originalMethod = class_getInstanceMethod(self, originalSelector)
+//            let swizzledMethod = class_getInstanceMethod(self, swizzledSelector)
+//
+//            let didAddMethod = class_addMethod(self, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod))
+//
+//            if didAddMethod {
+//                class_replaceMethod(self, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod))
+//            } else {
+//                method_exchangeImplementations(originalMethod, swizzledMethod);
+//            }
+//        }
+//    }
 
+    public override class func initializeOnceMethod() {
         if self == UILabel.self {
-            
-            let originalSelector = Selector("setText:")
-            let swizzledSelector = Selector("ft_setText:")
+
+            let originalSelector = #selector(setter: UILabel.text)
+            let swizzledSelector = #selector(UILabel.ft_setText(_:))
 
             let originalMethod = class_getInstanceMethod(self, originalSelector)
             let swizzledMethod = class_getInstanceMethod(self, swizzledSelector)
@@ -54,10 +73,6 @@ extension UILabel {
             }
         }
     }
-
-//    @objc fileprivate func ft_resetText() {
-//        self.ft_setText(self.internationalKey?.localizable)
-//    }
 
     @objc fileprivate func ft_setText(_ sText: String?) {
         self.internationalKey = sText

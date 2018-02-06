@@ -23,4 +23,8 @@ open class FTInternationalManager {
         }
     }
 
+    init() {
+        UILabel.initializeOnceMethod()
+    }
+
 }
